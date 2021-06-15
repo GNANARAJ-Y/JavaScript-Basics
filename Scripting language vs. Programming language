@@ -1,0 +1,34 @@
+Scripting language vs. Programming language
+
+The differences betweeen a Scripting language and a Programming language are mentioned below,
+
+		Scripting language			vs.			Programming language
+
+	1) Takes less time to code; 			1) Takes more time to code;
+	less coding needs to be written.		more coding needs to be written.
+
+	2) Interpreted							2) Compiled
+
+	3) Run inside another program.			3) Run independently of an exterior program.
+
+	4) It Needs a host.						4) It Doest not need a host.
+
+	5) Does not create any binary			5) Create binaries & executables. 
+	files or executables.
+
+	6) No memory will be allocated.			6) Executes from system's memory;
+											memory will be allocated.
+
+	7) It designed to make coding in 		7) It designed to make a developor to access all
+	faster and simpler manner.				the features of a language.
+
+	8) Less intensive coding.				8) More intensive coding.
+
+	9) Less complexity; 					9) More complexity.
+	
+	10) Easier to learn and understand		10) It takes significant amount of time to learn 
+	in short period.						and understand because of its complexity.
+
+	11) Eg: JavaScript, Python, Perl,		11) Eg: C,C++, C#, Java, VC++, COBOL, PASCAL, etc.,
+	Ruby, VB Script, etc.,
+

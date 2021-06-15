@@ -1,0 +1,39 @@
+Browser JS vs. nodeJS
+
+Broweser and node both are executing the JavaScript and both uses the same JavaScript engines.
+
+The difference betweeen Browser JS vs. nodeJS are mentioned below,
+
+			Browser JS 						vs.						Node JS
+
+	1) Browser executes JS in 						1) Node executes JS in 
+	client side.									server side.
+
+	2) In Browsers, Moduling is 					2) In Node, everything (code) is 
+	not mandatory in client side JS.				kept inside a module.
+
+	3) It processes Response objects.				3) It processes Request objects.
+
+	4) Browsers are having headers. It 				4) Node is headless.
+	is not headless.
+
+	5) Browsers don't have "require" 				5) "require" object is available and predefined 
+	predefined object.								in Node which is used to include modules.
+
+	6) It has an object named "global", 			6) Node has "global", which is a predefined global object. 
+	but it is not containing any functions			It contains several functions that are not available in browsers, 
+	similar to NodeJS, because they don't			because they are needed only for the server side works.
+	need for the client side works.
+
+	7) "document" is a predefined global 			7) Node doesn't have "document" object, because 
+	variable in browsers, has the html 				it doesn't need to render anything in a page.
+	which is rendered.
+
+	8) "location" is a predefined object 			8) Node doesn't require "location" object, because 
+	in browsers, which has all the information		it is page specific for a particular URL.
+	about the URL we have loaded.
+
+	9) "window" is a predefined global object 		9) Node doesn't have a predefined "window" object. 
+	which has functions and attributes.				It doesn't have a window to draw anything.
+	
+	

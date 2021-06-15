@@ -1,0 +1,19 @@
+Statically typed vs. Dynamically typed languages
+
+Type checking is to ensure the program is type-safe, to minimise the possibility of type-errors.
+
+The differences betweeen Statically-typed and Dynamically-typed languages are mentioned below,
+
+		Statically typed 						Dynamically typed
+			language 				vs.				language
+
+	1) It performs type checking			1) It performs type checking
+	at compile time.						at runtime.
+
+	2) It checks the type of the 			2) It checks the type of the 
+	variable before running.				variable while executing.
+
+	3) Eg: Java, C, C++, C#,				3) JavaScript, PHP, Python, Perl, 
+	Haskell, Pascal, etc.,					Ruby, Lisp, Groovy, etc.,
+	
+	
