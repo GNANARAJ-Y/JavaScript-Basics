@@ -20,7 +20,7 @@ request or connection at a time.				files and requests to be transferred at the 
 6) HTTP/1.1 does not have header 				6) HTTP/2 has header compression built-in which can 
 compression.							compress a large number of redundant header frames.
 
-7) 	HTTP/1.1 needs to wait for the client 			7) HTTP/2 allow servers to push required resources proactively
+7) HTTP/1.1 needs to wait for the client 			7) HTTP/2 allow servers to push required resources proactively
 browser in which it allows to request 				without waiting for the permission.
 files whenever it needs.
 
