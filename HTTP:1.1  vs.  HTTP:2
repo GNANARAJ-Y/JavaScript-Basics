@@ -1,31 +1,31 @@
 HTTP/1.1  vs.  HTTP/2
 
-			HTTP/1.1					vs.					HTTP/2
+			HTTP/1.1			vs.			HTTP/2
 
 1) HTTP/1.1 runs on text protocol.				1) HTTP/2 runs on binary protocol.
 
 2) HTTP/1.1 used to process text 				2) HTTP/2 converts the same text commands 
-commands to complete request-response 			into binary before transmitting it over 
-cycles.											the network.
+commands to complete request-response 				into binary before transmitting it over the network.
+cycles. 
 
-3) HTTP/1.1 is only accepted one single 		3) HTTP/2 is fully multiplexed allowing multiple 
+3) HTTP/1.1 is only accepted one single 			3) HTTP/2 is fully multiplexed allowing multiple 
 request or connection at a time.				files and requests to be transferred at the same time.
 
-4) HTTP/1.1 opens a new connection everytime	4) HTTP/2 uses the same connection for transferring 
- for each and every file which needs to be 		different files and requests between a client and a server.
+4) HTTP/1.1 opens a new connection everytime			4) HTTP/2 uses the same connection for transferring 
+ for each and every file which needs to be 			different files and requests between a client and a server.
  transferred between a client and a server.
 
 5) Slower; Load time will be more.				5) Faster; Load time will be less when compared to HTTP/1.1
 
 6) HTTP/1.1 does not have header 				6) HTTP/2 has header compression built-in which can 
-compression.									compress a large number of redundant header frames.
+compression.							compress a large number of redundant header frames.
 
-7) 	HTTP/1.1 needs to wait for the client 		7) HTTP/2 allow servers to push required resources proactively
-browser in which it allows to request 			without waiting for the permission.
+7) 	HTTP/1.1 needs to wait for the client 			7) HTTP/2 allow servers to push required resources proactively
+browser in which it allows to request 				without waiting for the permission.
 files whenever it needs.
 
-8) It is inefficient and having more 			8) It is efficient and having less possibilities 
-possibilities for errors.						for errors, when compared to HTTP/1.1
+8) It is inefficient and having more 				8) It is efficient and having less possibilities 
+possibilities for errors.					for errors, when compared to HTTP/1.1
 
 
 
