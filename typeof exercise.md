@@ -1,4 +1,4 @@
-//
+//typeof exercise on 16.06.2021
 
 typeof(1)  ->  number
 
