@@ -14,7 +14,10 @@ var obj = [{ person: "Name1", age: "2", company: "GUVI" },
 
  for(var i of obj)
     {
-        console.log(i.person, i.age, i.company);
+        console.log("Person : " + i.person);
+        console.log("Age : " + i.age);
+        console.log("Company : " + i.company);
+        
     }
 });
 
