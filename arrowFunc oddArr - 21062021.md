@@ -9,7 +9,7 @@ inp.on("line", (data) => {
 inp.on("close", () => {
 
 //Print odd numbers in an array using ES6 Arrow functions
-let num = [11,22,33,44,55,66,77,88,99,110,130];
+let num = [111,222,333,444,555,666,777,888,999];
 let odd = [];
 
 let oddArr = () => {
