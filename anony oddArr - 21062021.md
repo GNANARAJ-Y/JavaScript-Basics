@@ -1,4 +1,3 @@
-//Print odd numbers in an array using Anonymous function
 const readline = require('readline');
 const inp = readline.createInterface({
   input: process.stdin
@@ -9,7 +8,8 @@ inp.on("line", (data) => {
 });
 inp.on("close", () => {
 
-let num = userInput[0].split(" ");
+//Print odd numbers in an array using Anonymous function
+let num = [11,22,33,44,55,66,77,88,99,110,130];
 let odd = [];
 
 let oddArr = function () {
