@@ -1,14 +1,5 @@
-const readline = require('readline');
-const inp = readline.createInterface({
-  input: process.stdin
-});
-const userInput = [];
-inp.on("line", (data) => {
- userInput.push(data);
-});
-inp.on("close", () => {
-
-let num = userInput[0].split(" ");
+//Print odd numbers in an array using IIFE function
+let num = [1,2,3,4,5,6,7,8,9,10];
 let odd = [];
 
 (function () {
@@ -23,5 +14,3 @@ let odd = [];
     console.log(odd);
     
 })();
-
-});

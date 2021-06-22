@@ -1,3 +1,4 @@
+//Print odd numbers in an array using IIFE function
 const readline = require('readline');
 const inp = readline.createInterface({
   input: process.stdin
